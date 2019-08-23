@@ -5,7 +5,6 @@
 const merge = require('webpack-merge');
 let devConf = require('../webpack/webpack.dev.js');
 const baseConf = require('../webpack/webpack.config.js');
-// const tsDevConf = require('../webpack/webpack.dev.ts.multiple.conf');
 const { devScript } = require('./base-dev.js');
 
 
